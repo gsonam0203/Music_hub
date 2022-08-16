@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Hub - Your Favourite Music Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand" ><img src="Spotify_logo_without_text.svg.png" alt="Spotify" >Music Hub</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">   
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemcontainer">
+               <div class="songItem">
+                <img src="istockphoto-1203512641-170667a.jpg" alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp" >03:41<i id="0" class="fa-solid songItemPlay fa-circle-play" ></i></span></span>
+               </div>
+               <div class="songItem">
+                <img src="istockphoto-1203512641-170667a.jpg" alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp" >05:57<i id="1" class="fa-solid songItemPlay fa-circle-play "></i></span></span>
+               </div>
+               <div class="songItem">
+                <img src="istockphoto-1203512641-170667a.jpg" alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp" >03:73<i  id="2" class="fa-solid  songItemPlay fa-circle-play " ></i></span></span>
+               </div>
+               <div class="songItem">
+                <img src="istockphoto-1203512641-170667a.jpg" alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp" >04:19<i  id="3" class="fa-solid songItemPlay fa-circle-play" ></i></span></span>
+               </div>
+               <div class="songItem">
+                <img src="istockphoto-1203512641-170667a.jpg" alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp" >03:83<i  id="4" class="fa-solid songItemPlay fa-circle-play" ></i></span></span>
+               </div>
+               <div class="songItem">
+                <img src="istockphoto-1203512641-170667a.jpg" alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span  id="5" class="timestamp" >04:82<i class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+               </div>
+               <div class="songItem">
+                <img src="istockphoto-1203512641-170667a.jpg" alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp" >12:12<i  id="6" class=" fa-solid songItemPlay fa-circle-play " ></i></span></span>
+               </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value = "0" max="100">
+        <div class="icons">
+            <!--fontawsome icons-->
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="circlenormal.gif" alt="gif" width="42px" id="gif"><span id="masterSongName">Let me love you </span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/802571bef4.js" crossorigin="anonymous"></script><!--add font awesome file-->
+    <script src="script.js"></script>
+</body>
+</html>
